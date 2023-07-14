@@ -5,7 +5,7 @@
 | :sparkles: Nome        | **Projeto Loja Mudi**
 | :label: Tecnologias | HTML, CSS, Java, Spring Boot, MVC, Security, Data JPA, 
 |  | Thymeleaf, MySQL, AJAX
-| :rocket: URL         | thamyresmya.github.io/
+| :rocket: URL         | https://github.com/Thamyresmya/Loja-Mudi
 
 <br>
 
@@ -49,7 +49,7 @@ Projeto de cadastro de produtos desenvolvido em Java com Spring boot. Páginas w
 
 ## 📁 Acesso ao projeto
 
-É possível acessar o projeto através do [Link]()
+É possível acessar o projeto através do [Link](https://github.com/Thamyresmya/Loja-Mudi)
 
 
 <br>
