@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"
+      xmlns:th="http://thymeleaf.org">
+
+<head>
+    <div th:fragment="head">
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../static/css/estilos.css" th:href="@{/css/estilos.css}">
+    </div>
+</head>
+
+
+<div th:fragment="logo" class="logo-container mb-3 p-3 d-flex justify-content-between">
+  <span class="logo">mudi</span>
+  <span class="mt-3">login</span>
+</div>
+
+<div th:fragment="titulo(valor)" class="jumbotron mb-0">
+    <h1 class="display-4" th:text="${valor}"></h1>
+</div>
+
+
+</html>
