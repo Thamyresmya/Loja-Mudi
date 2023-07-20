@@ -20,8 +20,6 @@ public class Pedido {
     @Enumerated(EnumType.STRING)
     private StatusPedido status;
 
-
-
     public String getNomeProduto() {
         return nomeProduto;
     }

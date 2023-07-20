@@ -3,8 +3,7 @@
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Projeto Loja Mudi**
-| :label: Tecnologias | HTML, CSS, Java, Spring Boot, MVC, Security, Data JPA, 
-|  | Thymeleaf, MySQL, AJAX
+| :label: Tecnologias | HTML, CSS, Java, Spring Boot, MVC, Data JPA, Thymeleaf, Bootstrap, MySQL, API Rest
 | :rocket: URL         | https://github.com/Thamyresmya/Loja-Mudi
 
 <br>
@@ -27,23 +26,21 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
+- Bootstrap
+- Thymeleaf 
 - Java
 - Spring Boot
+- Spring Data
 - Spring MVC
-- Spring Security
-- API Rest
-- AJAX
-- Thymeleaf 
-- MySQL
 - Maven
-- Spring Data JPA
-- Git e Github
+- API Rest
+- MySQL
 
 <br>
 
 ## 💻 Projeto
 
-Projeto de cadastro de produtos desenvolvido em Java com Spring boot. Páginas web dinâmicas utilizando Thymeleaf, banco de dados MySQL para persistir os dados da aplicação, criação de esquema do banco de dados e tabelas, controle de versionamento com flyway, e utilização do Spring Data JPA para interagir com o banco de dados de forma eficiente.
+Projeto de cadastro de produtos desenvolvido em Java com Spring boot. Páginas web dinâmicas utilizando Thymeleaf e Bootstrap, banco de dados MySQL para persistir os dados da aplicação, criação de esquema do banco de dados e tabelas, e utilização do Spring Data JPA para interagir com o banco de dados de forma eficiente.
 
 <br>
 
@@ -56,11 +53,19 @@ Projeto de cadastro de produtos desenvolvido em Java com Spring boot. Páginas w
 
 ## 📸 Gif
 
-<img width="100%" height="300" src="./geral/img"></img>
+<img width="100%" height="300" src="./geral/img/Loja_Mudi.gif"></img>
 
-Lista de todos os produtos
+Lista de todos os produtos <br>
+<img width="70%" height="350" src="./geral/img/Lista_todos.png"></img>
 
-<img width="100%" height="300" src="./geral/img/Lista_todos.png"></img>
+Lista dos produtos aprovados<br>
+<img width="70%" height="350" src="./geral/img/Lista_aprovado.png"></img>
+
+Lista dos produtos entregue<br>
+<img width="70%" height="350" src="./geral/img/Lista_entregue.png"></img>
+
+Lista dos produtos aguardando<br>
+<img width="70%" height="450" src="./geral/img/Lista_aguardando.png"></img>
 
 
 <br>

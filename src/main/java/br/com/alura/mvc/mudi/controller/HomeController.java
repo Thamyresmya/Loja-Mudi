@@ -27,13 +27,14 @@ public class HomeController {
 
     @GetMapping("/{status}")
     public String porStatus(@PathVariable("status") String status, Model model){
-        List<Pedido> pedidos = pedidoRepository.findByStatus(StatusPedido.valueOf(status.toUpperCase()));
+        List<Pedido> pedidos = pedidoRepository
+                .findByStatus(StatusPedido.valueOf(status.toUpperCase()));
         model.addAttribute("pedidos", pedidos);
         model.addAttribute("status", status);
         return "home";
     }
 
-    //tratamnto de exception url invalida
+    //tratamento de exception url invalida
     @ExceptionHandler(IllegalArgumentException.class)
     public String onError() {
         return "redirect:/home";

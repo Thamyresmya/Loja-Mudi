@@ -18,7 +18,6 @@ public class PedidoController {
     @Autowired
     private PedidoRepository pedidoRepository;
 
-
     @GetMapping("formulario")
     public String formulario(RequisicaoNovoPedido requisicao){
         return "pedido/formulario";
